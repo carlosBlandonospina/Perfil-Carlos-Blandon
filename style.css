@@ -1,18 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-body {
-    color:rgb(78, 9, 9)
-    }
-    strong{
-    color: #22fd55;
+*{
+    padding: 0;
+    margin: 0;
 }
-html{
-    background-image: image("safetyfirts.png");
+
+style
+html {
+    background-image: url(safetyfirst.avif) no-repeat center fixed;
+    background-size: cover;
 }
-div{
-    font-size: 30px;
-    text-align: justify;
-    color: blanchedalmond;
+body{
+    background-color: none;
+    color:white;
+    height: 100vh;
+    box-sizing: border-box;
 }
-footer{
-    font-size: 25px;
+.titulo-destacado{
+    color: red
+}
+
+.presentacion{
+    display: flex;
+    align-items: center;
+    margin: 10% 15%;
+    justify-content: center;
+
+}
+.presentacion__contenido{
+    width: 615px;
+    display:flex;
+    flex-direction: column;
+}
+.presentacion__contenido__titulo{
+    font-size: 36px;
+    font-family:"krona one", sans-serif;
+}
+.presentacion__contenido_texto{
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif; 
+}
+.presentacion__enlaces{
+    display: flex;
+    justify-content: space-between;
+}
+.presentacion__enlaces__link{
+    width: 280px;
+    background-color: #22d4fd;
+    text-align: center;
+    padding: 21.5px 0;
+    border-radius: 16px;
+    font-family: "monserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000000;
 }
